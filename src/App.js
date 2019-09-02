@@ -1,9 +1,15 @@
 import React from "react";
+import Header from "./Components/Header/Index";
+import Main from "./Pages/Main/Index";
+import Routes from "./routes";
+
+import "./App.scss";
 
 function App() {
   return (
     <div className="App">
-      <h1>App running</h1>
+      <Header />
+      <Routes />
     </div>
   );
 }
